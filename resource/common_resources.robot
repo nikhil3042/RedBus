@@ -16,7 +16,7 @@ Load Environment
     ${pwd}=  Get Env    user_password
 
     Set Global Variable    ${BASE_URL}  ${url}
-    Set Global Variable    ${USER_EMAIL}  ${phone_no}
+    Set Global Variable    ${USER_NO}  ${phone_no}
     Set Global Variable    ${USER_EMAIL}  ${email}
     Set Global Variable    ${USER_PWD}  ${pwd}
 
