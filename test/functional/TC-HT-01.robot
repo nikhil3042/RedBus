@@ -1,8 +1,8 @@
 *** Settings ***
 Library    SeleniumLibrary
-Resource    ../../resource/pages/hotel_page.robot
-Resource    ../../resource/pages/search_hotel.robot
-Resource    ../../resource/common_resources.robot
+Resource    ../../resources/pages/hotel_page.robot
+Resource    ../../resources/pages/search_hotel.robot
+Resource    ../../resources/common_resources.robot
 
 Suite Setup    Open Application
 Suite Teardown    Close Application
