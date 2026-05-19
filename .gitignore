@@ -12,7 +12,9 @@ __pycache__/
 dist/
 build/
 .Python
-
+config
+*env.yaml
+*.yaml
 # ================================
 # ROBOT FRAMEWORK REPORTS & LOGS
 # ================================
