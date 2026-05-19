@@ -1,17 +1,16 @@
 *** Settings ***
 Library    SeleniumLibrary
+Resource    ../../resources/Pages/hotel_page.robot
+Resource    ../../resources/Pages/search_hotel.robot
 Resource    ../../resources/common_resources.robot
-Resource    ../../resources/pages/search_train.robot
-Resource    ../../resources/pages/train_page.robot
 
 Suite Setup    Open Application
 Suite Teardown    Close Application
 
 *** Test Cases ***
-TC-TR-01 Search Train
-    [Documentation]    Searching the train
+TC-HT-01 Search Hotel
+    [Documentation]    Searching the hotel
     [Tags]    functional
-    Train Page
+    Hotel Page
     Sleep    3s
-    Search Trains
-    
+    Search Hotels

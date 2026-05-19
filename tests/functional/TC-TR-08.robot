@@ -1,9 +1,9 @@
 *** Settings ***
 Library    SeleniumLibrary
 Resource    ../../resources/common_resources.robot
-Resource    ../../resources/pages/search_train.robot
-Resource    ../../resources/pages/train_page.robot
-Resource    ../../resources/pages/old_passenger.robot
+Resource    ../../resources/Pages/search_train.robot
+Resource    ../../resources/Pages/train_page.robot
+Resource    ../../resources/Pages/old_passenger.robot
 
 Suite Setup    Open Application
 Suite Teardown    Close Application
