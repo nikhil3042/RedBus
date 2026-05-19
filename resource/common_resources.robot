@@ -13,12 +13,13 @@ Load Environment
     ${url}=  Get Env    baseurl
     ${phone_no}=  Get Env    ph_no
     ${email}=  Get Env    user_email
-    ${pwd}=  Get Env    user_password
+#    ${pwd}=  Get Env    user_password
 
     Set Global Variable    ${BASE_URL}  ${url}
-    Set Global Variable    ${USER_NO}  ${phone_no}
+
+
     Set Global Variable    ${USER_EMAIL}  ${email}
-    Set Global Variable    ${USER_PWD}  ${pwd}
+#    Set Global Variable    ${USER_PWD}  ${pwd}
 
 Open Application
     [Documentation]  Opens the application
