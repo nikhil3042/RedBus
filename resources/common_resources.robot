@@ -15,15 +15,19 @@ Load Environment
     ${pwd}=  Get Env    user_password
 
     Set Global Variable    ${BASE_URL}  ${url}
-    Set Global Variable    ${PHONE_NO}  ${phone_no}
+    Set Global Variable    ${USER_PHONE}  ${phone_no}
     Set Global Variable    ${USER_EMAIL}  ${email}
     Set Global Variable    ${USER_PWD}  ${pwd}
 
 Open Application
     [Documentation]  Opens the application
-    Open Browser  ${BASE_URL}  ${BROWSER}
+    Open Browser  ${BASE_URL}    ${BROWSER}
     Maximize Browser Window
 
 Close Application
     [Documentation]  Closing the application
     Close All Browsers
+
+Initialize Test
+    Load Environment
+    Open Application
