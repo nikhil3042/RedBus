@@ -14,6 +14,7 @@ build/
 .Python
 config
 *env.yaml
+*.yaml
 # ================================
 # ROBOT FRAMEWORK REPORTS & LOGS
 # ================================

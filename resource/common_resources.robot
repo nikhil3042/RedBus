@@ -5,6 +5,7 @@ Library  ../config/env_loader.py
 *** Variables ***
 ${BROWSER}  chrome
 ${ENV}  qa
+${BASE_URL}  https://www.redbus.in/
 
 *** Keywords ***
 Load Environment
@@ -27,3 +28,8 @@ Open Application
 Close Application
     [Documentation]  Closing the application
     Close All Browsers
+
+
+
+    
+
