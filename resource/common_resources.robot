@@ -5,6 +5,7 @@ Library  ../config/env_loader.py
 *** Variables ***
 ${BROWSER}  chrome
 ${ENV}  qa
+${BASE_URL}  https://www.redbus.in/
 
 *** Keywords ***
 Load Environment
@@ -15,7 +16,8 @@ Load Environment
 #    ${pwd}=  Get Env    user_password
 
     Set Global Variable    ${BASE_URL}  ${url}
-    Set Global Variable    ${ph_no}  ${phone_no}
+
+
     Set Global Variable    ${USER_EMAIL}  ${email}
 #    Set Global Variable    ${USER_PWD}  ${pwd}
 
@@ -27,3 +29,8 @@ Open Application
 Close Application
     [Documentation]  Closing the application
     Close All Browsers
+
+
+
+    
+
